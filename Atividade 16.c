@@ -6,7 +6,7 @@ int main()
    char palavra[100];
    int contador = 0;
    printf("Digite uma palvra: ");
-   scanf("99/s", palavra);
+   scanf("%99s", palavra);
    
    for (int i = 0; palavra[i] != '\0'; i++){
        contador++;
